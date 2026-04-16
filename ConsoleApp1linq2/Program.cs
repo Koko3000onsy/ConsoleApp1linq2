@@ -83,6 +83,12 @@ namespace ConsoleApp1linq2
             //var result = ProductList.Sum(p=>p.UnitsInStock);
             //Console.WriteLine(result);
 
+            //Q11
+            //var result = ProductList.Max(p=>p.UnitPrice);
+            //var result2 = ProductList.Min(p=>p.UnitPrice);
+            //Console.WriteLine($"Max UnitPrice: {result:C2}");
+            //Console.WriteLine($"Min UnitPrice: {result2:C2}");
+
         }
     }
 }
