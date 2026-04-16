@@ -26,6 +26,11 @@ namespace ConsoleApp1linq2
             //{
             // Console.WriteLine(item);
             //}
+
+            //Q4
+            //var result = ProductList.Where(p=>p.Category== "Seafood")
+            //                        .All(p=>p.UnitsInStock>0);
+            //Console.WriteLine(result);
         }
     }
 }
