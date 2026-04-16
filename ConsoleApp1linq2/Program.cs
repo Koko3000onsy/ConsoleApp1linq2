@@ -106,7 +106,14 @@ namespace ConsoleApp1linq2
             //    Console.WriteLine(item);
             //}
 
-
+            //Q14
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //var result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
