@@ -1,4 +1,5 @@
-﻿using static ConsoleApp1linq2.DataSource.Source;
+﻿using ConsoleApp1linq2.Modals;
+using static ConsoleApp1linq2.DataSource.Source;
 namespace ConsoleApp1linq2
 {
     internal class Program
@@ -153,6 +154,17 @@ namespace ConsoleApp1linq2
             //    Console.WriteLine(item);
             //}
 
+            //Q20
+            //var products = ProductList.Take(3)
+            //                          .Select(p => p.ProductName);
+
+            //var customers = CustomerList.Take(3)
+            //                            .Select(c => c.CompanyName);
+            //var result = products.Concat(customers);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item}");
+            //}
 
         }
     }
