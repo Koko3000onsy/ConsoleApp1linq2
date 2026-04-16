@@ -114,6 +114,13 @@ namespace ConsoleApp1linq2
             //{
             //    Console.WriteLine(item);
             //}
-        }
+
+            //Q15
+            //var result = ProductList.ToDictionary(p=> p.ProductID, p => p);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Key: {item.Key}, Value: {item.Value}");
+            //}
+            }
     }
 }
