@@ -137,6 +137,17 @@ namespace ConsoleApp1linq2
             //    Console.WriteLine("No product found with UnitPrice > 500.");
 
             //}
+
+            //Q18
+            //var result = Enumerable.Range(1, 12)
+            //                       .Select(i => $"{7} x {i} = {7 * i}")
+            //                       .ToList();
+            //foreach (var item in result) 
+            //{ 
+            //    Console.WriteLine(item);
+            //}
+
+
         }
     }
 }
