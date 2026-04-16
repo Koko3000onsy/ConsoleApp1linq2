@@ -11,7 +11,7 @@ namespace ConsoleApp1linq2
             //{
             //    Console.WriteLine(item);
             //}
-             
+
             //Q2
             //var result = ProductList.Skip(5).Take(5);
             //foreach (var item in result)
@@ -30,6 +30,11 @@ namespace ConsoleApp1linq2
             //Q4
             //var result = ProductList.Where(p=>p.Category== "Seafood")
             //                        .All(p=>p.UnitsInStock>0);
+            //Console.WriteLine(result);
+
+            //Q5
+            //int[] ids = { 3, 9, 13, 18 };
+            //var result = ids.Contains(9);
             //Console.WriteLine(result);
         }
     }
