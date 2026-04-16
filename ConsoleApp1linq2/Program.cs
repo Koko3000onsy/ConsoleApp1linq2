@@ -11,7 +11,13 @@ namespace ConsoleApp1linq2
             //{
             //    Console.WriteLine(item);
             //}
-
+             
+            //Q2
+            //var result = ProductList.Skip(5).Take(5);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
