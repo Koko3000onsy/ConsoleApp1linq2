@@ -78,7 +78,11 @@ namespace ConsoleApp1linq2
             //{
             //    Console.WriteLine($"{item.country}: {item.count} customers, total order price {item.totalPrice:C2}");
             //}
-      
+
+            //Q10
+            //var result = ProductList.Sum(p=>p.UnitsInStock);
+            //Console.WriteLine(result);
+
         }
     }
 }
