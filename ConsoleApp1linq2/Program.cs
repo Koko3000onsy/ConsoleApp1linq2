@@ -5,7 +5,13 @@ namespace ConsoleApp1linq2
     {
         static void Main(string[] args)
         {
-              
+            //Q1
+            //var result = ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
+            //foreach (var item in result) 
+            //{
+            //    Console.WriteLine(item);
+            //}
+
         }
     }
 }
