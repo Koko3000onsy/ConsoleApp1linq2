@@ -64,6 +64,21 @@ namespace ConsoleApp1linq2
             //{
             //    Console.WriteLine(item.Category + ": " + item.Count);
             //}
+
+            //Q9
+            //var result = from c in CustomerList
+            //             group c by c.City into g
+            //             select new
+            //             {
+            //                 country = g.Key,
+            //                 count = g.Count(),
+            //                 totalPrice = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //             };
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.country}: {item.count} customers, total order price {item.totalPrice:C2}");
+            //}
+      
         }
     }
 }
