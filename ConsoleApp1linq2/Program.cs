@@ -36,6 +36,14 @@ namespace ConsoleApp1linq2
             //int[] ids = { 3, 9, 13, 18 };
             //var result = ids.Contains(9);
             //Console.WriteLine(result);
+
+            //Q6
+            //var result = ProductList.GroupBy(p=>p.Category)
+            //                        .Select(g=>new { Category=g.Key, Count=g.Count()});
+            //foreach (var item in result)
+            //{ 
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
