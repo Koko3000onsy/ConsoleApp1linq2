@@ -44,6 +44,18 @@ namespace ConsoleApp1linq2
             //{ 
             //    Console.WriteLine(item);
             //}
+
+            //Q7
+            //var result=ProductList.GroupBy(p => p.Category)
+            //                        .Select(g => new { Category = g.Key, ProductName=g.Select(p => p.ProductName) });
+            //foreach (var item in result) 
+            //{ 
+            //    Console.WriteLine(item.Category);
+            //    foreach (var productName in item.ProductName)
+            //    {
+            //        Console.WriteLine("  " + productName);
+            //    }
+            //}
         }
     }
 }
