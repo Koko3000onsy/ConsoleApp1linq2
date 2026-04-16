@@ -18,6 +18,14 @@ namespace ConsoleApp1linq2
             //{
             //    Console.WriteLine(item);
             //}
+
+            //Q3
+            //var result =ProductList.OrderBy(p=>p.UnitPrice)
+            //                       .TakeWhile(p=>p.UnitPrice<25);
+            //foreach (var item in result)
+            //{
+            // Console.WriteLine(item);
+            //}
         }
     }
 }
