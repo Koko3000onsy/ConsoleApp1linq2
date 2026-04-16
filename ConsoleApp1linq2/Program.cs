@@ -125,6 +125,18 @@ namespace ConsoleApp1linq2
             //Q16
             //var result = ProductList.First(p => p.UnitPrice > 50);
             //Console.WriteLine(result);
+
+            //Q17
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //if (result != null)
+            //{
+            //    Console.WriteLine(result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No product found with UnitPrice > 500.");
+
+            //}
         }
     }
 }
