@@ -56,6 +56,14 @@ namespace ConsoleApp1linq2
             //        Console.WriteLine("  " + productName);
             //    }
             //}
+
+            //Q8
+            //var result = ProductList.GroupBy(p=> p.Category).Where(g=> g.Count()>3)
+            //                        .Select(g=> new { Category=g.Key, Count=g.Count()});
+            //foreach (var item in result) 
+            //{
+            //    Console.WriteLine(item.Category + ": " + item.Count);
+            //}
         }
     }
 }
