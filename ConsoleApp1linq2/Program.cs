@@ -89,6 +89,13 @@ namespace ConsoleApp1linq2
             //Console.WriteLine($"Max UnitPrice: {result:C2}");
             //Console.WriteLine($"Min UnitPrice: {result2:C2}");
 
+            //Q12
+            //var result = ProductList.Select(p => p.Category).Distinct();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
         }
     }
 }
