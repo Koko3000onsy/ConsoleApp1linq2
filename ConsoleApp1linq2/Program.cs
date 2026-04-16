@@ -121,6 +121,10 @@ namespace ConsoleApp1linq2
             //{
             //    Console.WriteLine($"Key: {item.Key}, Value: {item.Value}");
             //}
-            }
+
+            //Q16
+            //var result = ProductList.First(p => p.UnitPrice > 50);
+            //Console.WriteLine(result);
+        }
     }
 }
